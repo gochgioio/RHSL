@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+    background-color: #3d3c3c;
+    color: #a81b1b;
+    padding: 20px;
+    background-image: url(imageedit_2_5111901020.png);
+    background-size: cover;
+}
+
+nav {
+    border-radius: 10px;
+    background-color: #5693dde5;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #8d2a2a;
+    font-size: larger;
+    transition: 0.5s;
+}
+
+nav ul li a:not(:hover){
+    transition: 0.3s;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(59, 140, 216, 0.918);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #f0442d;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.page {
+    display: none; 
+}
+
+.page:first-child {
+    display: block; 
+}
+
+
+
+
+.play-sound1{
+    background-color: transparent; 
+    border: none; 
+    color: black; 
+    font-size: 16px; 
+    cursor: pointer; 
+    outline: none; 
+}
+
+
+hr{
+    margin: 20px;
+    font-size: larger;
+    border-color: red;
+}
+
+.container2{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.hh1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px ;
+}
+
+.hi1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.apoligy{
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+
+
+#about.page {
+    background-image: url(noFilter.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    } 
+
+#memes.page {
+    background-image: url(https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg);
+    background-size: 150px; 
+    }
+
+.warningimg{
+    width: 50px; height: 50px;
+    }
+
+
